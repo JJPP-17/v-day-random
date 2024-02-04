@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Valentine Project_JJPP</title>
+</head>
+<body>
+    <div class="container">
+        <div class="Mainresponse" id="main">
+            <img class="image" src="images/scale.webp"/>
+            <h1 class="bb" id="name">Hey Bibi!</h1>
+            <p class="qq" id="question">Will you be my Valentines?</p>
+            <div class="buttons">
+                <button id="yes-button" onClick="displayMessage('Yes')">Yes</button>
+                <button id="no-button" onClick="displayMessage('No')">No</button>  
+                <button id="reset-button" onClick="displayMessage('Reset')">Reset</button>          
+            </div>
+            <div id="yes-message" class="hidden-message">
+                <p>Yayy! Let's go on 14th, Bubu</p>
+            </div>
+            <div id="no-message" class="hidden-message">
+                <p>Oh! Please try againn, this option is not available.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

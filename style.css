@@ -1,0 +1,86 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #FC4C4E;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    margin: 0;
+    background: url('images/image.jpg')repeat;
+    font-size: 20px;
+    color: rgba(11, 36, 197, 0.736);
+}
+
+.bb{
+    -webkit-text-stroke: 2px #1a008d;
+}
+
+.qq{
+    -webkit-text-stroke: 2px rgb(222, 12, 61);
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: 800;
+    color: pink;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+#no-message {
+    animation: moveNoMessage 0.5s linear;
+}
+
+@keyframes moveNoMessage {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(30px, 30px); }
+    50% { transform: translate(-20px, -20px); }
+    75% { transform: translate(10px, 10px); }
+    100% { transform: translate(0, 0); }
+}
+
+.image{
+    height: 300px;
+}
+
+.buttons button{
+    background-color: rgb(233, 162, 56);
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 26px;
+    cursor: pointer;
+    position: relative;
+    font-family: serif;
+}
+
+.buttons button:hover {
+    background-color: #df849c;
+}
+
+.hidden-message{
+    display: none;
+    margin-top: 20px;
+}
+
+#reset-button{
+    background-color: rgb(185, 241, 125);
+    color: black;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    position: relative;
+    font-family: serif;
+}
